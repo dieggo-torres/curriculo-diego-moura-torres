@@ -13,8 +13,11 @@
 <body>
     <!-- Cabeçalho -->
     <img width="10%" src="imagens/foto-perfil-diego-torres.png" alt="foto de perfil de diego moura torres">
-    <h1><i class="fa-solid fa-user"></i> Diego Moura Torres</h1>
+    <h1>Diego Moura Torres</h1>
+
     <hr>
+
+    <h2>Redes Sociais</h2>
 
     <p>Estes são os links para minhas redes sociais:</p>
 
@@ -30,6 +33,41 @@
             <a href="https://www.instagram.com/dieggo_torres/" target="_blank">Instagram</a>
         </li>
     </ul>
+
+    <hr>
+
+    <h2>Formulário</h2>
+    <form action="index.html" method="post">
+        <div>
+            <label for="nome"><strong>Nome</strong></label><br>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
+        </div>
+        <br>
+        <div>
+            <label for="email"><strong>E-mail</strong></label><br>
+            <input type="email" name="email" id="nome" placeholder="Digite seu e-mail">
+        </div>
+        <br>
+        <div>
+            <label for="nascimento"><strong>Data de Nascimento</strong></label><br>
+            <input type="date" name="nascimento" id="nascimento" placeholder="Digite sua data de nascimento">
+        </div>
+        <br>
+        <div>
+            <label for="nome"><strong>Foto</strong></label><br>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            <label for="mensagem"><strong>Mensagem</strong></label><br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Enviar">        
+    </form>
+
+    <hr>
+
     <p>
         Voltar para a página de <a href="index.html">perfil</a> <i class="fa-solid fa-rotate-left"></i>.
     </p>
