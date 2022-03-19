@@ -6,6 +6,13 @@ body {
   background-color: #eaf6f6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #545454;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  color: #66bfbf;
 }
 
 hr {
@@ -14,4 +21,8 @@ hr {
   border-width: 10px;
   border-color: #ccc;
   width: 5%;
+}
+
+img {
+  width: 60%;
 }
