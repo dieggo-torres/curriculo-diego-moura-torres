@@ -26,190 +26,201 @@
     <title>Diego Moura Torres</title>
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <img src="imagens/foto-perfil-diego.png" alt="foto de perfil de diego moura torres">
-            </td>
-            <td>
-                <h1>Diego Moura Torres</h1>
-                <p><em>Desenvolvedor Python Iniciante</em></p>
-                <p>São Paulo, Brasil</p>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
+    <!-- Barra de Navegação -->
+    <header id="cabecalho-principal">
+        <div class="conteiner">
+            <img src="imagens/foto-perfil-diego-torres.png" alt="">
+        </div>
+        <nav id="barra-navegacao">
+            <div class="conteiner">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     
     <!-- Biografia -->
-    <h2>Biografia</h2>
-    <p>
-        Meu nome é Diego, sou brasileiro, nasci e fui criado em São Paulo, cidade onde vivo atualmente.
-        Eu sou <strong>Desenvolvedor Python</strong> em início de carreira. Desde meu primeiro contato com Python fiquei
-        apaixonado por esta linguagem de programação. À medida que desenvolvia minhas habilidades com esta
-        linguagem, percebi que poderia usá-la para dar um novo direcionamento à minha carreira profissional.
-        E é exatamento isso que venho fazendo ao longo do último ano. Espero que em breve possa estar trabalhando
-        como desenvolvedor.
-    </p>
+    <section class="bio">
+        <h2>Biografia</h2>
+        <p>
+            Meu nome é Diego, sou brasileiro, nasci e fui criado em São Paulo, cidade onde vivo atualmente.
+            Eu sou <strong>Desenvolvedor Python</strong> em início de carreira. Desde meu primeiro contato com Python fiquei
+            apaixonado por esta linguagem de programação. À medida que desenvolvia minhas habilidades com esta
+            linguagem, percebi que poderia usá-la para dar um novo direcionamento à minha carreira profissional.
+            E é exatamento isso que venho fazendo ao longo do último ano. Espero que em breve possa estar trabalhando
+            como desenvolvedor.
+        </p>
+    </section>
 
     <hr>
 
     <!-- Projetos Relevantes -->
-    <h2>Projetos Relevantes</h2>
-    <p>Confira os projetos mais relevantes que já desenvolvi:</p>
-    <ul>
-        <li>
-            <a href="https://github.com/dieggo-torres/28-Automacao-Web-Completa" target="_blank">Automação Web Completa</a>
-        </li>
-        <li>
-            <a href="https://github.com/dieggo-torres/27-Previsao-do-Tempo-com-a-API-do-Open-Weather-Map" target="_blank">Previsão do Tempo com a API do Open Weather Map</a>
-        </li>
-        <li>
-            <a href="https://github.com/dieggo-torres/26-Sistema-de-Obtencao-de-Links-de-Videos-do-YouTube" target="_blank">Sistema de Obtenção de Links de Vídeos do YouTube</a>
-        </li>
-        <li>
-            <a href="https://github.com/dieggo-torres/23-Sistema-Automatico-de-Envio-de-Emails-para-Contatos-do-Google-Contatos" target="_blank">Automação para Envio de E-mails para Contatos do Google Contatos</a>
-        </li>
-        <li>
-            <a href="https://github.com/dieggo-torres/25-Envio-de-Mensagens-no-WhatsApp-via-Selenium" target="_blank">Envio de Mensagens no WhatsApp via Selenium</a>
-        </li>
-        <li>
-            <a href="https://github.com/dieggo-torres/24-Sistema-para-Obter-Cotacoes-do-Dolar-Automaticamente" target="_blank">Sistema para Obter Cotações do Dólar Americano</a>
-        </li>
-        <li>
-            <a href="https://github.com/dieggo-torres/19-Analise-de-Dados-com-as-Bases-da-Contoso" target="_blank">Análise de Dados das Bases da Contoso</a>
-        </li>
-    </ul>
+    <section class="projetos">
+        <h2>Projetos Relevantes</h2>
+        <p>Confira os projetos mais relevantes que já desenvolvi (repositórios do GitHub):</p>
+        <ul>
+            <li>
+                <a href="https://github.com/dieggo-torres/28-Automacao-Web-Completa" target="_blank">Automação Web Completa</a>
+            </li>
+            <li>
+                <a href="https://github.com/dieggo-torres/27-Previsao-do-Tempo-com-a-API-do-Open-Weather-Map" target="_blank">Previsão do Tempo com a API do Open Weather Map</a>
+            </li>
+            <li>
+                <a href="https://github.com/dieggo-torres/26-Sistema-de-Obtencao-de-Links-de-Videos-do-YouTube" target="_blank">Sistema de Obtenção de Links de Vídeos do YouTube</a>
+            </li>
+            <li>
+                <a href="https://github.com/dieggo-torres/23-Sistema-Automatico-de-Envio-de-Emails-para-Contatos-do-Google-Contatos" target="_blank">Automação para Envio de E-mails para Contatos do Google Contatos</a>
+            </li>
+            <li>
+                <a href="https://github.com/dieggo-torres/25-Envio-de-Mensagens-no-WhatsApp-via-Selenium" target="_blank">Envio de Mensagens no WhatsApp via Selenium</a>
+            </li>
+            <li>
+                <a href="https://github.com/dieggo-torres/24-Sistema-para-Obter-Cotacoes-do-Dolar-Automaticamente" target="_blank">Sistema para Obter Cotações do Dólar Americano</a>
+            </li>
+            <li>
+                <a href="https://github.com/dieggo-torres/19-Analise-de-Dados-com-as-Bases-da-Contoso" target="_blank">Análise de Dados das Bases da Contoso</a>
+            </li>
+        </ul>
+    </section>
 
     <hr>
 
     <!-- Escolaridade -->
+    <section class="educacao">
         <h2><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
         <p>
             Tecnologia em Mecânica de Precisão na Faculdade de Tecnologia de São Paulo (Fatec-SP), concluído em 2019.
         </p>
+    </section>
 
     <hr>
 
     <!-- Experiências Profissionais -->
+    <section class="experiencias-profissionais">
         <h2><i class="fa-solid fa-briefcase"></i> Experiências Profissionais</h2>
-        <table cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Período</th>
-                    <th>Experiência</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Jan 2020 - Jan 2021</td>
-                    <td>
-                        <strong>Assistente de Gestão do Conhecimento na DroneStore Comercial LTDA</strong>
-                        <ol type="a">
-                            <li>Criação de dashboards com indicadores da área operacional;</li>
-                            <li>Elaboração de apresentações executivas;</li>
-                            <li>Criação e manutenção de biblioteca digital com materiais de Projeto de P&D.</li>
-                        </ol>
-                        <strong>Principais resultados: </strong>Implementei um modelo de consolidação de dados por meio de dashboards no Google Data Studio para monitorar o volume de dados gerados pelas áreas de operação e de pesquisa.
-                    </td>
-                </tr>
-                <tr>
-                    <td>Mai 2019 - Jan 2020</td>
-                    <td> 
-                        <strong>Auxiliar Técnico na DroneStore Comercial LTDA</strong>
-                        <ol type="a">
-                            <li>Líder da equipe de redação do relatório final de um Projeto de P&D;</li>
-                            <li>Estruturação metodológica, execução, análise e documentação de testes;</li>
-                            <li>Criação de guias de uso de softwares e de aplicativos.</li>
-                        </ol>
-                        <strong>Principais resultados: </strong>Liderei a equipe de redação do relatório final de um Projeto de P&D de 18 meses para apresentação de resultados obtidos, produtos gerados e impactos científico, econômico e socioambiental.
-                    </td>
-                </tr>
-                <tr>
-                    <td>Jan 2019 - Abr 2019</td>
-                    <td>
-                        <strong>Estagiário de Mecânica de Precisão na DroneStore Comercial LTDA</strong>
-                        <ol type="a">
-                            <li>Criação de dashboards e relatórios detalhados;</li>
-                            <li>Criação de inventário de peças de reposição da Assistência Técnica;</li>
-                            <li>Seleção de componentes para desenvolvimento de protótipos;</li>
-                            <li>Estruturação, execução e análise de testes com equipamentos (drones).</li>
-                        </ol>
-                        <strong>Principais resultados: </strong>Elaborei um comparativo do nível de ruídos emitidos por cada modelo de drone em função da altura de voo e modelo de hélice. Esse projeto foi desenvolvido para atender a uma necessidade de negócios da empresa.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="conteiner">
+            <div class="periodo">
+                Jan 2020 - Jan 2021
+            </div>
+            <div class="experiencia">
+                <strong>1. Assistente de Gestão do Conhecimento na DroneStore Comercial LTDA</strong>
+                    <ol type="a">
+                        <li>Criação de dashboards com indicadores da área operacional;</li>
+                        <li>Elaboração de apresentações executivas;</li>
+                        <li>Criação e manutenção de biblioteca digital com materiais de Projeto de P&D.</li>
+                    </ol>
+                <strong>Principais resultados: </strong>Implementei um modelo de consolidação de dados por meio de dashboards no Google Data Studio para monitorar o volume de dados gerados pelas áreas de operação e de pesquisa.
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="periodo">
+                Mai 2019 - Jan 2020
+            </div>
+            <div class="experiencia">
+                <strong>2. Auxiliar Técnico na DroneStore Comercial LTDA</strong>
+                    <ol type="a">
+                        <li>Líder da equipe de redação do relatório final de um Projeto de P&D;</li>
+                        <li>Estruturação metodológica, execução, análise e documentação de testes;</li>
+                        <li>Criação de guias de uso de softwares e de aplicativos.</li>
+                    </ol>
+                <strong>Principais resultados: </strong>Liderei a equipe de redação do relatório final de um Projeto de P&D de 18 meses para apresentação de resultados obtidos, produtos gerados e impactos científico, econômico e socioambiental.
+            </div>
+        </div>
+        <div class="conteiner">
+            <div class="periodo">
+                Jan 2019 - Abr 2019
+            </div>
+            <div class="experiencia">
+                <strong>3. Estagiário de Mecânica de Precisão na DroneStore Comercial LTDA</strong>
+                    <ol type="a">
+                        <li>Criação de dashboards e relatórios detalhados;</li>
+                        <li>Criação de inventário de peças de reposição da Assistência Técnica;</li>
+                        <li>Seleção de componentes para desenvolvimento de protótipos;</li>
+                        <li>Estruturação, execução e análise de testes com equipamentos (drones).</li>
+                    </ol>
+                <strong>Principais resultados: </strong>Elaborei um comparativo do nível de ruídos emitidos por cada modelo de drone em função da altura de voo e modelo de hélice. Esse projeto foi desenvolvido para atender a uma necessidade de negócios da empresa.
+            </div>
+        </div>
+    </section>
 
     <hr>
 
     <!-- Idiomas -->
-    <h2><i class="fa-solid fa-earth-americas"></i> Idiomas</h2>
-    <ul>
-        <li>Português - Nativo</li>
-        <li>Inglês - Avançado</li>
-    </ul>
+    <section class="idiomas">
+        <h2><i class="fa-solid fa-earth-americas"></i> Idiomas</h2>
+        <ul>
+            <li>Português - Nativo</li>
+            <li>Inglês - Avançado</li>
+        </ul>
+    </section>
 
     <hr>
 
     <!-- Conhecimentos e Habilidades -->
-    <h2><i class="fa-solid fa-brain"></i> Conhecimentos e Habilidades</h2>
+    <section class="habilidades">
+        <h2><i class="fa-solid fa-brain"></i> Conhecimentos e Habilidades</h2>
 
-    <table cellspacing="20">
-        <tbody>
-            <tr>
-                <td>Python</td>
-                <td>⭐⭐⭐⭐</td>
-                <td>PostgreSQL</td>
-                <td>⭐⭐⭐</td>
-                <td>Word</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>HTML5</td>
-                <td>⭐⭐⭐⭐⭐</td>
-                <td>MongoDB</td>
-                <td>⭐⭐⭐</td>
-                <td>Interface da Linha de Comando</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CSS3</td>
-                <td>⭐⭐⭐</td>
-                <td>Excel</td>
-                <td>⭐⭐⭐⭐</td>
-                <td>Git</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>⭐⭐</td>
-                <td>PowerPoint</td>
-                <td>⭐⭐⭐⭐</td>
-                <td>GitHub</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-        </tbody>
-    </table>
+        <table cellspacing="20">
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>PostgreSQL</td>
+                    <td>⭐⭐⭐</td>
+                    <td>Word</td>
+                    <td>⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                    <td>MongoDB</td>
+                    <td>⭐⭐⭐</td>
+                    <td>Interface da Linha de Comando</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>⭐⭐⭐</td>
+                    <td>Excel</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>Git</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>⭐⭐</td>
+                    <td>PowerPoint</td>
+                    <td>⭐⭐⭐⭐</td>
+                    <td>GitHub</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
     <hr>
 
     <!-- Cursos e Certificações -->
-    <h2><i class="fa-solid fa-badge-check"></i> Cursos e Certificações</h2>
-    <ul>
-        <li>
-            Python Impressionador (100 h), <strong>Hashtag Treinamentos</strong> (Nov 2021 - ).
-        </li>
-        <li>
-            The Complete SQL Bootcamp 2021: Go from Zero to Hero (9 h), <strong>Udemy</strong>.
-        </li>
-    </ul>
+    <section class="cursos">
+        <h2><i class="fa-solid fa-badge-check"></i> Cursos e Certificações</h2>
+        <ul>
+            <li>
+                Python Impressionador (100 h), <strong>Hashtag Treinamentos</strong> (Nov 2021 - ).
+            </li>
+            <li>
+                The Complete SQL Bootcamp 2021: Go from Zero to Hero (9 h), <strong>Udemy</strong>.
+            </li>
+        </ul>
+    </section>
 
     <hr>
 
     <!-- Link para página de contato -->
-    <h2>Contato</h2>
-    <p>Entre em contato comigo através de minhas <a href="contato.html" target="_blank">redes sociais</a>.</p>
-</body=>
+    <footer class="rodape">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo através de minhas <a href="contato.html" target="_blank">redes sociais</a>.</p>
+    </footer>
+</body>
 </html>

@@ -6,7 +6,49 @@ body {
   background-color: #eaf6f6;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #545454;
-  line-height: 1.6;
+  line-height: 1.6rem;
+  width: 80vw;
+  margin: auto;
+}
+
+#cabecalho-principal {
+  background-color: transparent;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+
+img {
+  width: 35%;
+}
+
+#cabecalho-principal .conteiner {
+  flex-basis: 28%;
+}
+
+#cabecalho-principal #barra-navegacao {
+  flex-basis: 68%;
+}
+
+#barra-navegacao ul {
+  list-style: none;
+  text-align: right;
+}
+
+#barra-navegacao ul li {
+  display: inline-block;
+  /* margin-right: 20px; */
+}
+
+#barra-navegacao ul li a {
+  text-decoration: none;
+  color: #545454;
+  padding: 5px;
+}
+
+#barra-navegacao ul li a:hover {
+  color: #66bfbf;
 }
 
 h1,
@@ -23,6 +65,52 @@ hr {
   width: 5%;
 }
 
-img {
-  width: 60%;
+.projetos ul {
+  margin: 0;
+  padding: 0;
+}
+
+.projetos li {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: -1px;
+}
+
+.projetos li:first-child {
+  border-radius: 0 3px;
+}
+
+.projetos li:last-child {
+  border-radius: 3px 0;
+}
+
+.projetos li:nth-child(odd) {
+  background-color: #fff;
+}
+
+.projetos li a {
+  text-decoration: none;
+  color: #545454;
+  cursor: pointer;
+}
+
+.projetos li a:hover {
+  color: #66bfbf;
+}
+
+.conteiner {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.conteiner .periodo {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.conteiner .experiencia {
+  flex-basis: 70%;
 }
