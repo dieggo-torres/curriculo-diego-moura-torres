@@ -1,3 +1,12 @@
-# Currículo Pessoal em HTML Puro
+# Currículo Pessoal
 
-Trata-se de meu currículo pessoal contruído inteiramento em HTML, isto é, sem usar CSS nem JavaScript. Apesar de sua simplicidade, a página de contatos possui uma funcionalidade para envio de dados de um formulário para um endereço de e-mail.
+Esta página é meu currículo pessoal na qual apresento as seguintes informações:
+
+- Projetos Relevantes;
+- Formação Acadêmica;
+- Experiências Profissionais;
+- Idiomas;
+- Conhecimentos e Habilidades;
+- Cursos e Certificados
+
+Construi este currículo usando como inspiração o website de [Sean Halpin](https://web.archive.org/web/20180819202235js_/http://seanhalpin.io/).
