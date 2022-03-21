@@ -1,77 +1,78 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #eaf6f6;
+  color: #545454;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #545454;
   line-height: 1.6rem;
-  width: 80vw;
-  margin: auto;
-}
-
-#cabecalho-principal {
-  background-color: transparent;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  /* justify-content: flex-end; */
-}
-
-img {
-  width: 35%;
-}
-
-#cabecalho-principal .conteiner {
-  flex-basis: 28%;
-}
-
-#cabecalho-principal #barra-navegacao {
-  flex-basis: 68%;
-}
-
-#barra-navegacao ul {
-  list-style: none;
-  text-align: right;
-}
-
-#barra-navegacao ul li {
-  display: inline-block;
-  /* margin-right: 20px; */
-}
-
-#barra-navegacao ul li a {
-  text-decoration: none;
-  color: #545454;
-  padding: 5px;
-}
-
-#barra-navegacao ul li a:hover {
-  color: #66bfbf;
+  margin: 20px auto;
+  width: 65vw;
 }
 
 h1,
 h2,
 h3 {
-  color: #66bfbf;
+  color: #1e836c;
+  margin-bottom: 10px;
+}
+
+.educacao h2,
+.experiencias-profissionais h2,
+.habilidades h2,
+.idiomas h2,
+.cursos h2 {
+  margin-bottom: 20px;
 }
 
 hr {
   border-style: none;
+  border-color: #ccc;
   border-top-style: dotted;
   border-width: 10px;
-  border-color: #ccc;
+  margin: 20px auto;
   width: 5%;
 }
 
-.projetos ul {
+.cabecalho-cartao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.texto-cartao p {
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
+.imagem-cartao {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #996cd9;
+  margin-right: 20px;
+}
+
+.bio {
+  margin-top: 20px;
+}
+
+.projetos ul,
+.idiomas ul,
+.cursos ul {
+  list-style: none;
   margin: 0;
+  margin-top: 10px;
   padding: 0;
 }
 
-.projetos li {
-  list-style: none;
+.projetos li,
+.idiomas li,
+.cursos li {
   padding: 10px;
   border: 1px solid #ccc;
   margin-top: -1px;
@@ -82,7 +83,7 @@ hr {
 }
 
 .projetos li:last-child {
-  border-radius: 3px 0;
+  border-radius: 0 3px;
 }
 
 .projetos li:nth-child(odd) {
@@ -90,27 +91,71 @@ hr {
 }
 
 .projetos li a {
+  margin-left: 10px;
   text-decoration: none;
   color: #545454;
   cursor: pointer;
 }
 
+.projetos li i {
+  color: #1e836c;
+}
+
 .projetos li a:hover {
-  color: #66bfbf;
+  color: #1e836c;
 }
 
 .conteiner {
-  display: flex;
-  flex-flow: row;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  gap: 5px;
   align-items: center;
-  margin: 20px;
+  justify-content: center;
 }
 
-.conteiner .periodo {
-  flex-basis: 30%;
+.experiencias-profissionais .periodo p,
+.cursos .periodo p {
+  color: #1e836c;
+  font-weight: 500;
+}
+
+.experiencias-profissionais hr,
+.cursos hr {
+  border-style: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.conteiner-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-grid:nth-of-type(even) {
+  color: #1e836c;
+}
+
+footer {
   text-align: center;
 }
 
-.conteiner .experiencia {
-  flex-basis: 70%;
+footer p {
+  font-size: 15px;
+}
+
+footer ul li a i {
+  color: #1e836c;
+}
+
+footer .midias-sociais {
+  list-style: none;
+}
+
+footer .midias-sociais li {
+  display: inline-block;
+  padding: 10px;
 }
