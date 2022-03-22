@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #eaf6f6;
+  background-color: #f1f1f1;
   color: #545454;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6rem;
@@ -17,15 +17,10 @@ h1,
 h2,
 h3 {
   color: #1e836c;
-  margin-bottom: 10px;
 }
 
-.educacao h2,
-.experiencias-profissionais h2,
-.habilidades h2,
-.idiomas h2,
-.cursos h2 {
-  margin-bottom: 20px;
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 hr {
@@ -41,7 +36,6 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .texto-cartao p {
@@ -55,6 +49,10 @@ hr {
   border-radius: 50%;
   border: 2px solid #996cd9;
   margin-right: 20px;
+}
+
+.imagem-cartao:hover {
+  border: 2px solid #1e836c;
 }
 
 .bio {
