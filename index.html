@@ -16,31 +16,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Link para Font Awesome -->
-    <script src="https://kit.fontawesome.com/f7be95676a.js" crossorigin="anonymous"></script>
+    <!-- Biblioteca de Ícones do Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 
     <!-- Link para folha de estilo externa -->
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilos.css">
 
     <!-- Título do site -->
     <title>Diego Moura Torres</title>
 </head>
-<body>
+<body class="mx">
+
     <!-- Cabeçalho -->
-    <header class="cabecalho-cartao">
-        <img class="imagem-cartao" src="imagens/foto-perfil-diego.png" alt="foto-perfil-diego">
+
+    <header class="cabecalho-cartao mt-4 mb-4">
+        <img class="imagem-cartao mr-4" src="imagens/foto-perfil-diego.png" alt="foto-perfil-diego">
         <div class="texto-cartao">
-            <h1 class="mb-10">Diego Moura Torres</h1>
+            <h1 class="my-2">Diego Moura Torres</h1>
             <p>Desenvolvedor Python Iniciante</p>
         </div>
     </header>
+
+    <!-- Fim do Cabeçalho -->
     
     <!-- Biografia -->
+
     <section class="bio">
-        <h2 class="mb-10">Biografia</h2>
+        <h2 class="my-3">Biografia</h2>
         <p>
             Meu nome é Diego, sou brasileiro, nasci e fui criado em São Paulo, cidade onde vivo atualmente.
             Eu sou <strong>Desenvolvedor Python</strong> em início de carreira. Desde meu primeiro contato com Python fiquei
@@ -51,66 +56,116 @@
         </p>
     </section>
 
-    <hr>
+    <!-- Fim da Biografia -->
+
+    <hr class="mx my-4">
 
     <!-- Projetos Relevantes -->
+
     <section class="projetos">
-        <h2 class="mb-10">Projetos Relevantes</h2>
-        <p>Estes são os links de repositórios do GitHub nos quais armazeno meus projetos mais relevantes:</p>
+        <h2 class="my-3">Projetos Relevantes</h2>
         <ul>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/28-Automacao-Web-Completa" target="_blank">Automação Web Completa</a>
             </li>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/27-Previsao-do-Tempo-com-a-API-do-Open-Weather-Map" target="_blank">Previsão do Tempo com a API do Open Weather Map</a>
             </li>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/26-Sistema-de-Obtencao-de-Links-de-Videos-do-YouTube" target="_blank">Sistema de Obtenção de Links de Vídeos do YouTube</a>
             </li>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/23-Sistema-Automatico-de-Envio-de-Emails-para-Contatos-do-Google-Contatos" target="_blank">Automação para Envio de E-mails para Contatos do Google Contatos</a>
             </li>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/25-Envio-de-Mensagens-no-WhatsApp-via-Selenium" target="_blank">Envio de Mensagens no WhatsApp via Selenium</a>
             </li>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/24-Sistema-para-Obter-Cotacoes-do-Dolar-Automaticamente" target="_blank">Sistema para Obter Cotações do Dólar Americano</a>
             </li>
             <li>
-                <i class="fa-solid fa-folder"></i>
+                <i class="bi bi-folder2-open"></i>
                 <a href="https://github.com/dieggo-torres/19-Analise-de-Dados-com-as-Bases-da-Contoso" target="_blank">Análise de Dados das Bases da Contoso</a>
             </li>
         </ul>
     </section>
 
-    <hr>
+    <!-- Fim Projetos Relevantes -->
+
+    <hr class="mx my-4">
+
+    <!-- Publicações -->
+
+    <section class="publicacoes">
+
+        <h2 class="my-3">Minhas Publicações</h2>
+
+        <div class="artigos">
+
+            <a href="https://www.linkedin.com/pulse/4-aplica%25C3%25A7%25C3%25B5es-de-list-comprehension-em-python-diego-moura-torres/" target="_blank" >
+                <div class="artigo">
+                    <img class="imagem-artigo" src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="foto-desenvolvedor">
+                    <div class="info-artigo">
+                        <h4 class="pl-4 pr-4 pt-4 pb-4">4 Aplicações de List Comprehension em Python</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/pulse/3-aplica%25C3%25A7%25C3%25B5es-para-fun%25C3%25A7%25C3%25B5es-de-iterables-em-python-diego-moura-torres" target="_blank" >
+                <div class="artigo">
+                    <img class="imagem-artigo" src="https://cdn.pixabay.com/photo/2017/06/29/01/02/home-office-2452806__340.jpg" alt="programador-com-café">
+                    <div class="info-artigo">
+                        <h4 class="pl-4 pr-4 pt-4 pb-4">3 Aplicações para Funções de Iterables em Python</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/pulse/informa%25C3%25A7%25C3%25B5es-sens%25C3%25ADveis-como-ocult%25C3%25A1-las-python-diego-moura-torres" target="_blank" >
+                <div class="artigo">
+                    <img class="imagem-artigo" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="trabalho-equipe">
+                    <div class="info-artigo">
+                        <h4 class="pl-4 pr-4 pt-4 pb-4">Informações Sensíveis: Como Ocultá-las no Python</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Fim Publicações -->
+
+    <hr class="mx my-4">
 
     <!-- Escolaridade -->
+
     <section class="educacao">
-        <h2 class="mb-10"><i class="fa-solid fa-graduation-cap"></i> Formação Acadêmica</h2>
+        <h2 class="my-3">Formação Acadêmica</h2>
         <p>
             Tecnologia em Mecânica de Precisão na Faculdade de Tecnologia de São Paulo (Fatec-SP), concluído em 2019.
         </p>
     </section>
 
-    <hr>
+    <!-- Fim Escolaridade -->
+
+    <hr class="mx my-4">
 
     <!-- Experiências Profissionais -->
+
     <section class="experiencias-profissionais">
-        <h2 class="mb-10"><i class="fa-solid fa-briefcase"></i> Experiências Profissionais</h2>
+
+        <h2 class="my-3">Experiências Profissionais</h2>
 
         <div class="conteiner">
-            <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jan 2020 - Jan 2021</p> 
-            </div>
+
             <div class="experiencia">
-                <h3 class="mb-10">Assistente de Gestão do Conhecimento na DroneStore Comercial LTDA</h3>
+                <h3 class="my-2">Assistente de Gestão do Conhecimento na DronePower</h3>
+                <p class="periodo mb-2"><i class="bi bi-calendar-event"></i> Jan 2020 - Jan 2021</p> 
                 <p>
                     Neste cargo criei diversos paineis no Google Data Studio para monitorar
                     o desempenho de diferentes áreas da empresa por meio de seus indicadores
@@ -119,16 +174,16 @@
                     projeto de Pesquisa e Desenvolvimento. 
                 </p>
             </div>
+            
         </div>
 
         <hr>
 
         <div class="conteiner">
-            <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Mai 2019 - Jan 2020</p> 
-            </div>
+
             <div class="experiencia">
-                <h3 class="mb-10">Auxiliar Técnico na DroneStore Comercial LTDA</h3>
+                <h3 class="my-2">Auxiliar Técnico na DronePower</h3>
+                <p class="periodo mb-2"><i class="bi bi-calendar-event"></i> Mai 2019 - Jan 2020</p> 
                 <p>
                     As principais atividades que desenvolvia neste cargo envolviam a elaboração,
                     análise e documentação de testes com drones. Após a conclusão de experimentos dos quais
@@ -136,296 +191,344 @@
                     nos resultados de minha pesquisa.    
                 </p>
             </div>
-        </div>
-        
-        <hr>
 
+        </div>
+
+        <hr>
+        
         <div class="conteiner">
-            <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jan 2019 - Abr 2019</p> 
-            </div>
+
             <div class="experiencia">
-                <h3 class="mb-10">Estagiário de Mecânica de Precisão na DroneStore Comercial LTDA</h3>
+                <h3 class="my-2">Estagiário de Mecânica de Precisão na DronePower</h3>
+                <p class="periodo mb-2"><i class="bi bi-calendar-event"></i> Jan 2019 - Abr 2019</p>
                 <p>
                     Enquanto estagiário, fui responsável pela elaboração, execução e análise
                     de testes com drones. Além disso, participei da seleção de componentes para
                     desenvolvimento de um protótipo de um drone lança-chamas.
                 </p>
             </div>
+
         </div>
         
     </section>
 
-    <hr>
+    <!-- Fim Experiências Profissionais -->
+
+    <hr class="mx my-4">
 
     <!-- Idiomas -->
+
     <section class="idiomas">
-        <h2 class="mb-10"><i class="fa-solid fa-earth-americas"></i> Idiomas</h2>
+
+        <h2 class="my-3"><i class="fa-solid fa-earth-americas"></i> Idiomas</h2>
+
         <ul>
             <li>Português - Nativo</li>
             <li>Inglês - Avançado</li>
         </ul>
+
     </section>
 
-    <hr>
+    <!-- Fim Idiomas -->
+
+    <hr class="mx my-4">
 
     <!-- Conhecimentos e Habilidades -->
+
     <section class="habilidades">
-        <h2 class="mb-10"><i class="fa-solid fa-brain"></i> Conhecimentos e Habilidades</h2>
+
+        <h2 class="my-3">Conhecimentos e Habilidades</h2>
+
         <div class="conteiner-grid">
+
             <div class="item-grid">Python</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">Word</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">PostgreSQL</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">PowerPoint</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">MongoDB</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">Excel</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">HTML5</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">Git</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">CSS3</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">Hyper Terminal</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
             </div>    
 
             <div class="item-grid">GitHub</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
             </div>
 
             <div class="item-grid">JavaScript</div>
             <div class="item-grid">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
             </div>
             
         </div>
+
     </section>
 
-    <hr>
+    <!-- Fim Conhecimentos e Habilidades -->
+
+    <hr class="mx my-4">
 
     <!-- Cursos e Certificações -->
+
     <section class="cursos">
-        <h2 class="mb-10"><i class="fa-solid fa-badge-check"></i> Cursos e Certificações</h2>
+
+        <h2 class="my-3"><i class="fa-solid fa-badge-check"></i> Cursos e Certificações</h2>
 
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jan 2020 -  Em progresso</p> 
+                <p><i class="bi bi-calendar-event"></i> Jan 2020 -  Em progresso</p> 
             </div>
+
             <div class="educacao">
                 <h3>Hashtag Treinamentos</h3>
                 <p>
                     Python Impressionador (100h) 
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
         
         <div class="conteiner">
-            <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Mai 2021 - Não Expira</p> 
-            </div>
+
+            <p class="periodo"><i class="bi bi-calendar-event"></i> Mai 2021 - Não Expira</p> 
+
             <div class="educacao">
                 <h3>Udemy</h3>
                 <p>
                     The Complete SQL Bootcamp 2021: Go from Zero to Hero (9 h) 
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
 
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jun 2021 - Não Expira</p> 
+                <p><i class="bi bi-calendar-event"></i> Jun 2021 - Não Expira</p> 
             </div>
+
             <div class="educacao">
                 <h3>Mimo</h3>
                 <p>
                     Web Development 
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
         
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jul 2021 - Não Expira</p> 
+                <p><i class="bi bi-calendar-event"></i> Jul 2021 - Não Expira</p> 
             </div>
+
             <div class="educacao">
                 <h3>Udemy</h3>
                 <p>
                     Writing With Flair: How To Become An Exceptional Writer (7 h).
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
 
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jun 2021 - Não Expira</p> 
+                <p><i class="bi bi-calendar-event"></i> Jun 2021 - Não Expira</p> 
             </div>
+
             <div class="educacao">
                 <h3>Udemy</h3>
                 <p>
                     Punctuation Mastery (2.5 h)
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
 
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Jan 2021 - Não Expira</p> 
+                <p><i class="bi bi-calendar-event"></i> Jan 2021 - Não Expira</p> 
             </div>
+
             <div class="educacao">
                 <h3>Udemy</h3>
                 <p>
                     The Complete Copywriting Course: Write To Sell Like a Pro (3 h)
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
 
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Mar 2020 - Não Expira</p> 
+                <p><i class="bi bi-calendar-event"></i> Mar 2020 - Não Expira</p> 
             </div>
+
             <div class="educacao">
                 <h3>Fluency Academy</h3>
                 <p>
                     Business English (150 h)
                 </p>
             </div>
+
         </div>
 
-        <hr>
+        <hr class="mx my-4">
 
         <div class="conteiner">
+
             <div class="periodo">
-                <p><i class="fa-solid fa-calendar-days"></i> Set 2019 - Não Expira</p> 
+                <p><i class="bi bi-calendar-event"></i> Set 2019 - Não Expira</p> 
             </div>
+
             <div class="educacao">
                 <h3>Fluency Academy</h3>
                 <p>
                     English Course (150 h)
                 </p>
             </div>
+
         </div>
 
     </section>
 
-    <hr>
+    <!-- Fim Cursos e Certificações -->
 
-    <!-- Link para página de contato -->
+    <hr class="mx my-4">
+
+    <!-- Rodapé -->
+
     <footer class="rodape">
-        <p>
-            Encontre-me nas mídias sociais
-        </p>
+
         <ul class="midias-sociais">
             <li>
-                <a href="https://github.com/dieggo-torres" target="_blank"><i class="fa-brands fa-github-square fa-xl"></i></a>
+                <a href="https://github.com/dieggo-torres" target="_blank"><i class="bi bi-github"></i></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/diego-moura-torres" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                <a href="https://www.linkedin.com/in/diego-moura-torres" target="_blank"><i class="bi bi-linkedin"></i></a>
             </li>
             <li>
-                <a href="https://www.instagram.com/dieggo_torres/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="https://www.instagram.com/dieggo_torres/" target="_blank"><i class="bi bi-instagram"></i></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/diego.mouratorres/" target="_blank"><i class="fa-brands fa-facebook-square fa-xl"></i></a>
+                <a href="https://www.facebook.com/diego.mouratorres/" target="_blank"><i class="bi bi-facebook"></i></a>
             </li>
             <li>
-                <a href="mailto:diego_torres1995@hotmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+                <a href="mailto:diego_torres1995@hotmail.com"><i class="bi bi-envelope"></i></a>
             </li>
         </ul>
+
+        <small class="pb-4">
+            Copyright &copy; 2022 Diego Moura Torres
+        </small>
+
     </footer>
+
+    <!-- Fim Rodapé -->
 </body>
 </html>
