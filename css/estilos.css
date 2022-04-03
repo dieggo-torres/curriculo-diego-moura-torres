@@ -27,6 +27,7 @@ body {
   background-color: var(--cor-fundo-corpo);
   color: var(--cor-texto);
   font-family: var(--fonte-texto);
+  font-size: 1rem;
   line-height: var(--altura-linha);
   width: 65vw;
 }
@@ -195,6 +196,11 @@ footer .midias-sociais li {
 
 footer ul li a {
   color: var(--cor-icones);
+  font-size: 24px;
+}
+
+footer ul li a:hover {
+  color: var(--cor-texto);
 }
 
 /* Margem Superior */
@@ -411,4 +417,32 @@ footer ul li a {
 
 .py-4 {
   padding: 16px 0;
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .habilidades .conteiner-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .publicacoes .artigos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .cursos .conteiner {
+    grid-template-columns: 1fr;
+  }
+
+  .cursos .conteiner .periodo {
+    margin-bottom: 8px;
+  }
 }
