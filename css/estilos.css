@@ -1,10 +1,10 @@
 /* Fontes do Google */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&family=Source+Serif+Pro:wght@300;400;600&display=swap');
 
 /* Variáveis Globais */
 :root {
-  --fonte-texto: 'Open Sans', sans-serif;
-  --fonte-titulo: Merriweather, serif;
+  --fonte-texto: 'Source Sans Pro', sans-serif;
+  --fonte-titulo: 'Source Serif Pro', serif;
   --cor-fundo-corpo: #f1f1f1;
   --cor-texto: #545454;
   --cor-titulo: #1e836c;
@@ -64,6 +64,10 @@ hr {
   width: 120px;
   border-radius: 50%;
   border: 4px solid var(--cor-bordas-circulares);
+}
+
+.imagem-cartao:hover {
+  border: 4px solid #1e836c;
 }
 
 /* Biografia */
